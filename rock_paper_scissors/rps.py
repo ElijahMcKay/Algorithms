@@ -3,7 +3,19 @@
 import sys
 
 def rock_paper_scissors(n):
-  pass 
+	# defining moves possible
+	moves = ['rock', 'paper', 'scissors']
+	moves_possible = []
+	# defining internal helper function to do the recursion
+	def recurse(n):
+		if n == 0:
+			return n
+		if n === 1:
+			return 
+
+	return moves_possible
+
+
 
 
 if __name__ == "__main__":
